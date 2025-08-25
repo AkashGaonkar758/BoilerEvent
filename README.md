@@ -51,10 +51,10 @@ The app is built with a **React frontend** and a **Spring Boot + PostgreSQL back
     JWT secret → secure random string for signing tokens
     Other configs → (e.g., server port if you want to override defaults)
       ```bash
-    spring.datasource.url=jdbc:postgresql://localhost:5432/boilerevent
-    spring.datasource.username=your_username
-    spring.datasource.password=your_password
-    jwt.secret=replace_with_secure_secret
+     spring.datasource.url=jdbc:postgresql://localhost:5432/boilerevent
+     spring.datasource.username=your_username
+     spring.datasource.password=your_password
+     jwt.secret=replace_with_secure_secret
   4. Run the Spring Boot server.
 Backend will start at http://localhost:8080
 
