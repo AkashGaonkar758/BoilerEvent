@@ -56,6 +56,7 @@ The app is built with a **React frontend** and a **Spring Boot + PostgreSQL back
      spring.datasource.password=your_password
      jwt.secret=replace_with_secure_secret
   4. Run the Spring Boot server.
+
 Backend will start at http://localhost:8080
 
 ### 1. Frontend (React)
