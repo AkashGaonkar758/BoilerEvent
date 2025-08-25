@@ -1,7 +1,7 @@
 # BoilerEvent 
 
 BoilerEvent is a social media web app for events at Purdue.  
-Users can ** post, scroll & like ** purdue events  
+Users can **post, scroll & like** purdue events  
 The app is built with a **React frontend** and a **Spring Boot + PostgreSQL backend** with JWT authentication.
 
 ---
