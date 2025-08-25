@@ -36,7 +36,42 @@ The app is built with a **React frontend** and a **Spring Boot + PostgreSQL back
 ---
 
 ## Getting Started
--will update later
+
+### 1. Backend (Spring Boot)
+  1. Navigate into the backend folder:
+     ```bash
+     cd backend
+  2. Copy the example properties file into a working configuration:
+     ```bash
+     cp src/main/resources/application-example.properties src/main/resources/application.properties
+     
+
+  3. Open application.properties and fill in your details:
+    Database settings → PostgreSQL URL, username, password
+    JWT secret → secure random string for signing tokens
+    Other configs → (e.g., server port if you want to override defaults)
+      ```bash
+    spring.datasource.url=jdbc:postgresql://localhost:5432/boilerevent
+    spring.datasource.username=your_username
+    spring.datasource.password=your_password
+    jwt.secret=replace_with_secure_secret
+  4. Run the Spring Boot server.
+Backend will start at http://localhost:8080
+
+### 1. Frontend (React)
+  1. Navigate into the frontend React app (inside the nested folder):
+     ```bash
+     cd frontend/frontend
+  2. Install dependencies:
+     ```bash
+     npm install\
+  3. Start the development server:
+     ```bash
+     npm run dev
+
+Frontend will run at http://localhost:3000 and connect to the backend.
+
+---
 
 ## Future Improvements:
 - Add email verification & password reset via email
