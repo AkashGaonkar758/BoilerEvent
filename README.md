@@ -26,7 +26,6 @@ The app is built with a **React frontend** and a **Spring Boot + PostgreSQL back
 ### Frontend
 - React
 - Axios (for API requests)
-- Tailwind CSS (UI styling)
 
 ### Backend
 - Spring Boot
